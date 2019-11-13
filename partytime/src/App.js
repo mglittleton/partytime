@@ -1,11 +1,17 @@
 import React from 'react';
-import './App.css';
+
+import Navbar from './components/Navbar'
+import Menu from './components/Menu'
+import HostedParties from './components/HostedParties'
+import InvitedParties from './components/InvitedParties'
 
 function App() {
   return (
-    <div className="App">
-      Hello
-
+    <div style={{width:"100%"}}>
+      <Navbar />
+      <Menu />
+      <HostedParties />
+      <InvitedParties />      
     </div>
   );
 }
